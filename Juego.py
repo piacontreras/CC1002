@@ -7,8 +7,8 @@ vidas=2
 z=9
 while z==9:
     #nivel: num -> num random
-    #el juego me pedir· ingresar un nivel, y dependiendo del numero elegido comenzar· a jugar con tal nivel
-    #ejemplo: nivel(1): jugar· bajo las condiciones del nivel 1, habr·n por ejemplo 5 numeros que tendr· que memorizar el jugador
+    #el juego me pedir√° ingresar un nivel, y dependiendo del numero elegido comenzar√° a jugar con tal nivel
+    #ejemplo: nivel(1): jugar√° bajo las condiciones del nivel 1, habr√°n por ejemplo 5 numeros que tendr√° que memorizar el jugador
     def nivel (x):
         puntaje=0
         if x==1:
@@ -678,8 +678,8 @@ while z==9:
         return
     #juego: num -> funcion nivel
     #juego valida si la opcion elegida, en este caso el numero es acorde con algun nivel
-    #ejemplo: juego (9): deberÌa devolver opcion no valida, ya que no existe tal nivel
-    #ejemplo:juego (2): deberÌa devolver nivel 2
+    #ejemplo: juego (9): deber√≠a devolver opcion no valida, ya que no existe tal nivel
+    #ejemplo:juego (2): deber√≠a devolver nivel 2
     def juego (x):
         x=input("Ingrese nivel")
         if x<=1 or x>=5:
@@ -711,7 +711,7 @@ while z==9:
     if opcionParaIniciar==1:
         x=input("Ingrese nivel:")
         if x<1 or x>5:
-                print "Opcion no v·lida"
+                print "Opcion no v√°lida"
         if x==1:
             nivel (x)
         if x==2:
