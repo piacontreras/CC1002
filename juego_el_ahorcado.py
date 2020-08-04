@@ -19,7 +19,7 @@ canvas.pack()
 #dibujo_muneco: num(0-4)->dibujo
 #permite que a medida que se vaya cumpliendo ciertas condiciones
 #se vaya dibujando el ahorcado
-#ejemplo:dibujo_muneco(4) debería dibujar la cabeza
+#ejemplo:dibujo_muneco(4) deberÃ­a dibujar la cabeza
 def dibujo_muneco(x):
     if x==4:
         canvas.create_oval(350, 100, 450, 200, fill="red")
@@ -73,7 +73,7 @@ def letras(x):
 
 #rayitas:str->"_"
 #rayitas crea la cantidad de lineas por letra de cada palabraElegida(al azar)
-#ejemplo:rayitas(nandu) debería devolver _ _ _ _ _
+#ejemplo:rayitas(nandu) deberÃ­a devolver _ _ _ _ _
 def rayitas():
     return "_"*cantidad
 
