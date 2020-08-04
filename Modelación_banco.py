@@ -276,9 +276,9 @@ while a:
     for c in clientes:
         print '-> ' + c.toString()
     print ''
-    print 'A continuacion, escriba el nombre de uno de nuestros clientes para comenzar la simulación.'
+    print 'A continuacion, escriba el nombre de uno de nuestros clientes para comenzar la simulaciÃ³n.'
     print ''
-    cx = raw_input('Simulación de ')
+    cx = raw_input('SimulaciÃ³n de ')
     print ''
     if not cx in nombres:
         print 'Nombre mal ingresado o invalido.'
