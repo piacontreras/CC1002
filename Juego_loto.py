@@ -244,7 +244,7 @@ assert creciente(B) == pythonListToList([1,2,9,13,32])
 # < 2 >
 
 # salenMasDeUnaVez: lista(int) -> lista(int)
-# Retorna una lista con todos los números de
+# Retorna una lista con todos los nÃºmeros de
 # la lista con frecuencia mayor a 1.
 # ej: salenMasDeUnaVez(A) debe retornar lista(1, lista(2, listaVacia))
 def salenMasDeUnaVez(L):
@@ -261,7 +261,7 @@ assert salenMasDeUnaVez(B) == lista(9, lista(32, listaVacia))
 # < 3 >
 
 # noSorteados: lista(int) -> lista(int)
-# Retorna un lista con todos los números en el
+# Retorna un lista con todos los nÃºmeros en el
 # rango [1, 41] que nunca salieron en la lista.
 # ej: noSorteados(B) debe retornar pythonListToList([3,4,5,6,7,8,10,11,12,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,33,34,35,36,37,38,39,40,41])
 def noSorteados(L):
